@@ -9,7 +9,6 @@ terraform {
   required_version = "~> 1.0"
 }
 
-
 provider "aws" {
   region = local.region
   default_tags {
